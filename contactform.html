@@ -3,8 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="CSS/css.css">
 </head>
 <body>
+    <div class="main">
+        <div class="info">Give your Feedback!</div>
+        <form action="" method="POST" name="form" class="form-box">
+            <!--suppress XmlInvalidId -->
+            <label for="name">Name</label><br />
+            <input type="text" name="name" class="inp" placeholder="Enter tour name" required><br>
 
+            <!--suppress XmlInvalidId -->
+            <label for="email">Email ID</label><br>
+            <input type="email" name="email" class="inp" placeholder="Eter yout email" required><br>
+
+            <!--suppress XmlInvalidId -->
+            <label for="phone">Phone</label><br/>
+            <input type="tel" name="phone" class="inp" placeholder="Enter your phone" required><br>
+
+            <!--suppress XmlInvalidId -->
+            <label for="message">Message</label><br>
+            <textarea name="msg" id="msg-box" placeholder="Enter your message here..."></textarea><br>
+
+            <input type="submit" name="submit" value="send" class="sub-btn">
+
+        </form>
+
+    </div>
 </body>
 </html>
